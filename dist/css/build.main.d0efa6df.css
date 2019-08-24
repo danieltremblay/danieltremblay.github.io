@@ -1,6 +1,6 @@
 body {
 	margin: 0;
-	font-family: 'Lexend Deca', "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	background-color: rgb(17, 17, 18);
 	position: absolute;
 	margin: 0px;
@@ -26,6 +26,6 @@ body {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	color: #488e79;
+	color: #4eaa8f;
 	font-size: 40px;
 }
