@@ -1,23 +1,15 @@
-body {
+body, html {
 	margin: 0;
-	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	height: 100%;
 	background-color: rgb(17, 17, 18);
-	position: absolute;
-	margin: 0px;
-	overflow: hidden;
-	top: 0px;
-	bottom: 0px;
-	width: 100%;
 }
 
 .main-image {
 	background-image: url("../../resources/tremblayonline.jpg");
-	background-color: rgb(17, 17, 18);
-	height: 1335px;
+	height: 100%;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	position: relative;
 }
 
 .overlay-text {
@@ -27,5 +19,18 @@ body {
 	left: 50%;
 	transform: translate(-50%, -50%);
 	color: #4eaa8f;
-	font-size: 40px;
+	font-size: 18x;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+@media only screen and (min-width: 600px) {
+  .overlay-text {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .overlay-text {
+    font-size: 40px;
+  }
 }
